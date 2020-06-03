@@ -1,0 +1,38 @@
+
+
+
+<nav class="navbar navbar-expand-md ">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+        <!-- <img class="logo horizontal-logo" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/horizontal-logo.svg" alt="forecastr logo"> -->
+        Anup
+        </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          {% for nav in  site.navigations %}
+            {% if nav.child %}
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="{{nav.url}}" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                {{nav.title}}
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown2">            
+                {% for subNav in  nav.child %}
+                  <a class="dropdown-item" href="{{subNav.url}}">{{subNav.cat}}</a>
+                {% endfor %}              
+              </div>
+            </li>
+            {% else %}
+              <li class="nav-item">
+                <a class="nav-link" href="{{nav.url}}">{{nav.title}}</a>
+              </li>
+            {% endif %}
+          
+          {% endfor %}
+         
+        </ul>
+      </div>
+    </div>
+  </nav>

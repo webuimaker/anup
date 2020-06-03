@@ -1,0 +1,35 @@
+<div class="row mt-5">
+
+
+<div class="col-12">
+    <section id="recent-articles">
+        <div class="row">
+            <div class="col-9">
+                <div id="recent-articles-title">
+                    <h4 class="card-title">Recent Articles</h4>
+                  </div>
+            </div>
+            <div class="col-3 text-right">
+                <div id="recent-articles-show-all ">
+                    <a class="btn btn-sm btn-primary" href="/blog"> View All </a>
+                  </div>
+            </div>
+        </div>
+      <br />
+
+      <ul>
+        {% for post in site.posts limit:5 %}
+        <li class="article-card">
+          <a href="{{post.url}}" class="article-card-link">
+            <div id="article-container">
+              <div id="article-link">
+                  <p class="recent-article-link">{{post.title}} <span> - <i><time datetime="{{ post.date }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time></i></span></p>
+                </div>
+            </div>
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+  </div>
+</div>

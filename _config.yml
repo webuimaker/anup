@@ -1,0 +1,36 @@
+name: Anup Sahoo, QA Lead Engineer
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
+
+
+### Site Navigations
+navigations: 
+ - title: "Home"
+   url: "/"
+ - title: "Blog"
+   url: "/blog"
+   child:
+   - cat: "PMP Tips & Tricks"
+     url: "/blog/categories/pmp"
+   - cat: "Learning Python"
+     url: "/blog/categories/python"
+   - cat: "Testing Concepts"
+     url: "/blog/categories/testing"
+   - cat: "Test Automation"
+     url: "/blog/categories/automation"
+   - cat: "Hands on CI-CD "
+     url: "/blog/categories/ci-cd"
+   - cat: "For LifeHackers"
+     url: "/blog/categories/lifeHackers"
+   - cat: "archives"
+     url: "/blog/categories/all"
+ - title: "About"
+   url: "/about"
+ - title: "CV"
+   url: "/cv"
+ - title: "Contact Us"
+   url: "/contact"
+
+
+
+
