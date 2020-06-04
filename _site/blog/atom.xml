@@ -4,7 +4,7 @@
  <title>Anup's Blog</title>
  <link href="http://anupsahoo.github.io/blog/atom.xml" rel="self"/>
  <link href="http://anupsahoo.github.io/blog"/>
- <updated>2020-06-03T16:34:31+05:30</updated>
+ <updated>2020-06-04T16:02:40+05:30</updated>
  <id>http://anupsahoo.github.io/blog</id>
  <author>
    <name>Anup Sahoo</name>
@@ -129,7 +129,7 @@ techniques, independence of testing, mandatory and optional standards,
 configuration management approach and reusability of software and test work
 products.&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Note: While designing Test Strategy one should be consider the required test
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Note: While designing Test Strategy one should be consider the required test
 environment&lt;/code&gt;&lt;/p&gt;
 
 </content>

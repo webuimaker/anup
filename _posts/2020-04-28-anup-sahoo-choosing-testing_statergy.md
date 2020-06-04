@@ -3,6 +3,7 @@ layout: post
 title: "Choosing Tests Strategy "
 date: 2020-04-28
 category: pmp
+author:  Anup
 ---
 # What is Test Strategy?
 A Test strategy describes the testing approach of the software development cycle by

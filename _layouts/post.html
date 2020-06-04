@@ -1,11 +1,19 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }}</p>
 
-<div class="post">
-  {{ content }}
 
-  {% include share-buttons.html %}
+<div class="post row p-4">
+    <div class="co-12">
+      <h1 class="title">{{ page.title }}</h1>
+      <p class="meta text-muted mb-3">Posted by
+        {% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}
+        on {{ page.date | date: '%B %d, %Y' }} &middot; {% include read_time.html
+        content=page.content %}
+        </p> 
+      {{ content }}
+
+      {% include share-buttons.html %}
+    </div>
+  
 </div>

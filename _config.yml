@@ -1,6 +1,7 @@
 name: Anup Sahoo, QA Lead Engineer
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+baseurl:  "/"
 
 
 ### Site Navigations
@@ -26,10 +27,6 @@ navigations:
      url: "/blog/categories/all"
  - title: "About"
    url: "/about"
- - title: "CV"
-   url: "/cv"
- - title: "Contact Us"
-   url: "/contact"
 
 
 

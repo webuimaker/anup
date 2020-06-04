@@ -2,19 +2,23 @@
     {%- include head.html -%}
     {%- include nav.html -%}
 
-    <div class="container">
-      {{ content }}
+    <section class="main-sec">
+      <div class="container">
+        {{ content }}
+  
+        {% if page.url == "/"%}      
+          {%- include recent-article.html -%}
+        {% endif%}
+  
+        {% if page.url == "/about/" %} 
+  
+          {% include blog_newsletter.html %}
+        {% endif%}
+  
+        
+      </div>
+    </section>
 
-      {% if page.url == "/"%}      
-        {%- include recent-article.html -%}
-      {% endif%}
-
-      {% if page.url == "/about/" %} 
-
-        {% include blog_newsletter.html %}
-      {% endif%}
-
-      
-    </div>
+   
   
   {%- include footer.html -%}

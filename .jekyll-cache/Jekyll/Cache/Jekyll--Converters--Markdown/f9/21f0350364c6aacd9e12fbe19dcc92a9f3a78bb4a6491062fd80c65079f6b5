@@ -1,4 +1,4 @@
-I"<h1 id="what-is-test-strategy">What is Test Strategy?</h1>
+I"<h1 id="what-is-test-strategy">What is Test Strategy?</h1>
 <p>A Test strategy describes the testing approach of the software development cycle by
 providing the generic test entry criteria &amp; exit criteria for each level and the relationship
 among the levels from a Quality Assurance perspective.</p>
@@ -110,7 +110,7 @@ techniques, independence of testing, mandatory and optional standards,
 configuration management approach and reusability of software and test work
 products.</p>
 
-<p><code class="highlighter-rouge">Note: While designing Test Strategy one should be consider the required test
+<p><code class="language-plaintext highlighter-rouge">Note: While designing Test Strategy one should be consider the required test
 environment</code></p>
 
 :ET

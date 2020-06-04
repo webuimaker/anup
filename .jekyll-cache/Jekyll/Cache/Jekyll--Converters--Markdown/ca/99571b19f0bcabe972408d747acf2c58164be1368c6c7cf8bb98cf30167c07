@@ -1,0 +1,12 @@
+I"Ÿ<p>Data types are data items that represents the type of value that tells what operations 
+can be performed on a particular data.Since everything is an object in Python,data types
+are actually classes and variables are instance (object) of these classes. Below are the
+ standard data type of Python:</p>
+<ul>
+  <li>Numeric</li>
+  <li>Sequence Type</li>
+  <li>Boolean</li>
+  <li>Set</li>
+  <li>Dictionary</li>
+</ul>
+:ET
