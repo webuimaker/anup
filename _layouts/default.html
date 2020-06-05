@@ -1,24 +1,21 @@
+<!DOCTYPE html>
 
-    {%- include head.html -%}
-    {%- include nav.html -%}
+<html>
 
-    <section class="main-sec">
-      <div class="container">
-        {{ content }}
-  
-        {% if page.url == "/"%}      
-          {%- include recent-article.html -%}
-        {% endif%}
-  
-        {% if page.url == "/about/" %} 
-  
-          {% include blog_newsletter.html %}
-        {% endif%}
-  
-        
-      </div>
-    </section>
+{% include head.html %}
 
-   
-  
-  {%- include footer.html -%}
+<body>
+
+  {% include navbar.html %}
+
+  {{ content }}
+
+  {% include footer.html %}
+
+  {% include scripts.html %}
+
+  {% include google-analytics.html %}
+
+</body>
+
+</html>

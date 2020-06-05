@@ -1,13 +1,18 @@
-name: Anup Sahoo, QA Lead Engineer
-markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
-baseurl:  "/"
+title:              Anup
+email:              your-email@example.com
+description:        QA Lead Engineer
+author:             Vivek Kumar
+baseurl:            "/"
+url:                ""
+
 
 
 ### Site Navigations
 navigations: 
  - title: "Home"
    url: "/"
+ - title: "About"
+   url: "/about"
  - title: "Blog"
    url: "/blog"
    child:
@@ -25,9 +30,23 @@ navigations:
      url: "/blog/categories/lifeHackers"
    - cat: "archives"
      url: "/blog/categories/all"
- - title: "About"
-   url: "/about"
 
 
+# Social Profiles
+twitter_username:   anup
+github_username:    anup
+facebook_username:  anup
+linkedin_username:  anup
 
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
 
+# Build settings
+markdown: kramdown
+highlighter: rouge
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
