@@ -39,7 +39,7 @@ facebook_username:  anup
 linkedin_username:  anup
 
 # Add your google-analytics ID here to activate google analytics
-google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+google_analytics:   UA-168645855-1 
 
 # Build settings
 markdown: kramdown
